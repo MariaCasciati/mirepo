@@ -1,0 +1,78 @@
+/*PROYECTOS*/
+
+.obras{
+    background-color:  rgba(169, 169, 169, 0.267);
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    border:1px;
+    margin: 1% 6%;
+    padding: 1rem;
+    justify-content: left;
+  }
+  
+  
+  th {
+      background-color: rgba(172, 169, 169, 0.212);
+      border: 1px solid;
+      font-family:'Montserrat', sans-serif;
+      width: 200px;
+      height: 50px;
+      text-align: center;
+    }
+  
+  tr {
+      font-family:'Montserrat', sans-serif;
+      color: rgba(0, 0, 0, 0.801);
+      font-weight:bold;
+      border: 1px solid;
+      border-color: black;
+      height: 50px;
+      text-align: left;
+    }
+  
+  h2{
+      font-family:'Montserrat', sans-serif;
+      font-weight:bold;
+      padding: 20px;
+      font-size: 24px;
+      background-color: rgba(169, 169, 169, 0.267);
+      margin: 1% 0%;
+      display: flex;
+      flex-direction:column;
+      flex-wrap:wrap;
+      justify-content: space-evenly;
+      align-items: center;
+    
+  }
+  
+  .quinta1{
+    border: solid 1px;
+    padding: 5px;
+    margin:0px 15px;
+    justify-content: center;
+  }
+  .quinta2{
+    border: solid 1px;
+    padding: 5px;
+    margin:0px;
+    justify-content: center;
+  }
+  .quinta3{
+    border: solid 1px;
+    padding: 5px;
+    margin:30px 15px;
+    justify-content: center;
+  }
+  .venice{
+    border: solid 1px;
+    padding: 5px;
+    justify-content: center;
+  }
+  .barrioparque{
+    border: solid 1px;
+    padding: 5px;
+    margin:0px 15px;
+    justify-content: center;
+  }
+  

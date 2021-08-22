@@ -1,0 +1,89 @@
+$color-bg:rgba(194, 194, 194, 0.527);
+$ancho:100%;
+$fontsize:5rem;
+
+/*INDEX*/ 
+
+.titulo{
+    &__arq{
+        font-size: ($fontsize)-2;
+        font-family:'Montserrat', sans-serif;
+        background-color: $color-bg;
+        letter-spacing: 0.5rem;
+        color: rgba(255, 255, 255, 0.801);
+        opacity: 1;
+        height: 70px;
+        background: rgb(59,59,60);
+        background: linear-gradient(106deg, rgba(45, 45, 46, 0.827) 0%, rgb(98, 98, 99) 35%, rgb(137, 137, 138) 100%);
+        padding: 10px;
+    } 
+}
+
+.navbar-nav{
+    background-color: $color-bg;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+    height: 1.5rem; 
+    align-items: center; 
+    width: ($ancho)-10;  
+    font-weight:bold;
+    text-decoration: none;
+    margin:2rem;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(0, 0, 0);
+    list-style: none;
+    text-decoration: none;
+    padding: 1.5rem;
+    }
+
+.nav-item{
+        display: flex;
+        margin:auto;
+        justify-content: center;
+        height: auto; 
+        align-items: center; 
+        width: ($ancho)-30;  
+        font-weight:bold;
+        text-decoration: none;
+        margin:1rem;
+        font-family: 'Montserrat', sans-serif;
+        color:rgb(0, 0, 0);
+        list-style: none;
+        text-decoration: none;
+        }
+a:hover{
+        color:rgb(7, 7, 7);
+        background-color:  rgba(189, 189, 189, 0.479);
+        transform: scale(1.1);
+        transition: all 1.1s;
+        text-decoration: none;
+    }   
+
+
+.footer{
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    font-family:'Montserrat', sans-serif;
+    font-size: ($fontsize)-3.5;
+    margin-top: 50px;
+    background-color: $color-bg;
+      &__news{
+          font-size:($fontsize)-3.8;
+      }
+      &__texto{
+          font-size: ($fontsize)-4;
+          color: rgb(0, 0, 0);
+      }
+      &__logo{
+          display:block;
+          font-size: ($fontsize)-3;
+          text-align: right;
+          font-weight:bold;
+      }
+      &__social{
+          width: 100%;
+      }
+     }
+
+
